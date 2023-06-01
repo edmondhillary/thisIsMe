@@ -1,0 +1,565 @@
+/* Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #171717;
+  color: #fff;
+  width: 100vw;
+  padding: 3rem 8rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6.2rem;
+}
+
+.section-description {
+  width: 75rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
+  margin: 3.8rem 0;
+}
+
+.btn {
+  width: 14.3rem;
+  height: 4.2rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: white;
+  border: solid 1px transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn-primary {
+  background-color: #27ae60;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.7rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  border-bottom: solid 1px transparent;
+  transition: border 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  border-bottom: solid 1px white;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* padding-left: 4.8rem; */
+}
+
+.welcome-text {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6.2rem;
+  margin-bottom: 1rem;
+}
+
+.job-text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #828282;
+  margin-bottom: 3.5rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  background-color: #181818;
+  border-radius: 50%;
+  padding: 2.8rem;
+  border: 1px solid #202020;
+}
+
+.portrait {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  border: 0.85rem solid #27ae60 ;
+  object-fit: cover;
+}
+
+/* About */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-icon {
+  background-color: #27ae60;
+  display: block;
+  margin-bottom: 1.5rem;
+  background-color: #212121;
+  padding: 2rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #27ae60;
+  border-radius: 50%;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.item-description {
+  font-size: 1.8rem;
+}
+
+/* Services */
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.skill-card {
+  width: 35rem;
+  background-color: #212121;
+  padding: 3.5rem 5rem;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skill-card:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #27ae60;
+}
+
+.skill-icon {
+  font-size: 5rem;
+  color: #27ae60;
+}
+
+.skill-name {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 4.7rem;
+  color: #535353;
+  text-align: left;
+}
+
+/* Skills */
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-list {
+  margin-top: 7.3rem;
+  width: 117rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+
+  background-color: #212121;
+  padding: 6rem 1rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-number {
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 9.4rem;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.stat-label {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  text-align: center;
+  color: #27ae60;
+}
+
+/* Contact */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo:hover,
+.logo:focus {
+  cursor: pointer;
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+form {
+  width: 75rem;
+  margin-top: 7rem;
+  display: flex;
+  gap: 4.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+input,
+input:focus-visible {
+  width: 50%;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.4rem;
+  background-color: transparent;
+  padding: 1rem;
+  padding-left: 0;
+  border-bottom: solid 1px #4f4f4f;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+textarea {
+  font-family: "DM Sans", sans-serif;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  font-size: 1.4rem;
+  background-color: transparent;
+  resize: none;
+}
+
+textarea:focus-visible {
+  outline: none;
+  border: solid 1px #4f4f4f;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 3rem;
+  padding: 5rem 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #4f4f4f;
+}
+
+.button:hover {
+  background-color: #27ae60;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/**************/
+/* Responsive */
+/**************/
+
+@media screen and (max-width: 1350px) {
+  .stats-list,
+  .skills-container {
+    width: 105rem;
+  }
+
+  main {
+    gap: 8rem;
+  }
+
+  .portrait {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .stats-list,
+  .skills-container {
+    width: 105rem;
+  }
+
+  html {
+    font-size: 58%;
+  }
+
+  .stats-list,
+  .skills-container {
+    gap: 3rem;
+    max-width: 100rem;
+  }
+
+  .stats-list {
+    gap: 12rem;
+  }
+
+  .skill-name {
+    font-size: 3rem;
+  }
+
+  .stat-number {
+    font-size: 6rem;
+    line-height: 3.8rem;
+  }
+
+  .stat-label {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    padding: 3rem 6rem;
+  }
+
+  header {
+    margin-bottom: 8rem;
+  }
+
+  main {
+    flex-direction: column-reverse;
+    gap: 4.5rem;
+  }
+
+  .section-description {
+    width: auto;
+    line-height: 3.5rem;
+    display: inline-block;
+  }
+
+  .portrait {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .main-left {
+    align-items: center;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
+
+  .info-container {
+    gap: 5rem;
+  }
+
+  .stats-list,
+  .skills-container {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .stats-list {
+    width: 35rem;
+  }
+
+  .stat-number {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info-container {
+    flex-direction: column;
+  }
+  form {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 2rem;
+  }
+  body {
+    padding: 3rem 3rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav {
+    display: none;
+  }
+  form {
+    max-width: 45rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  form {
+    max-width: 40rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  form {
+    max-width: 35rem;
+  }
+}
