@@ -40,7 +40,7 @@ const Experience = () => {
                 alt={imgDent}
               />
               <div className='experience-time'> 2022 - 2023 </div>
-              <p>
+              <p style={{overflowX: 'scroll'}}>
                 On the back-end, I work with Node.js, Express, and MongoDB,
                 while the front-end is powered by React, SCSS, Tailwind CSS, and
                 Ant Design. I recently developed and sold a dental software with
@@ -62,7 +62,7 @@ const Experience = () => {
                 alt={theBridgeLogo}
               />
               <div className='experience-time'>2022</div>
-              <p>
+              <p style={{overflowX: 'scroll'}}>
                 Full Stack Web Development BootCamp, specializing in the MERN
                 STACK +1000 hours of practical training in Full Stack web
                 development. Front-end programming in JavaScript. Use of
@@ -85,7 +85,7 @@ const Experience = () => {
                 alt={mafaldaLogo}
               />
               <div className='experience-time'>2022 - now </div>{" "}
-              <p>
+              <p style={{overflowX: 'scroll'}}>
                 Managed and coordinated an international band in the local music
                 scene, specializing in logistics, communication, social media
                 marketing, and event organization.
@@ -103,7 +103,7 @@ const Experience = () => {
                 alt={"bigSeo"}
               />
               <div className='experience-time'>2017-2018</div>
-              <p>
+              <p style={{overflowX: 'scroll'}}>
                 I utilized my expertise in TSA, Sendinblue, Hubspot, and Google
                 Analytics to manage successful digital marketing campaigns. I
                 developed visually appealing websites using WordPress,
@@ -122,7 +122,7 @@ const Experience = () => {
                 alt={humboldt}
               />
               <div className='experience-time'>2016 - 2021 </div>
-              <p>
+              <p style={{overflowX: 'scroll'}}>
                 Experienced in property management and administration,
                 marketing, SEO, social media management, and economic
                 management. Skilled in leading and managing teams of over 30
