@@ -1,5 +1,5 @@
 import React from "react";
-import imgPortfolio from "../../../public/fotoPortfolio.jpg";
+import imgPortfolio from "../../../public/jod.jpg";
 import pdfCV from "../../../public/CVENGLISH.pdf";
 import { WhatsAppOutlined } from "@ant-design/icons";
 
