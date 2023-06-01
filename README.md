@@ -43,7 +43,7 @@ En la sección de habilidades, presento una lista de lenguajes de programación 
 
 ## Autor
 
-Eduardo G - [correo electrónico](mailto:eduardog@example.com)
+Eduardo G - [correo electrónico](mailto:eduardog.carbonell@gmail.com)
 
 ## Licencia
 
