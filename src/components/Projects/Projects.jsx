@@ -82,6 +82,7 @@ const Projects = () => {
               subtitle='Portfolio Eduardo Gonzalez'
               videoUrl='https://www.youtube.com/watch?v=lx3oshaV4YM'
               text='This is my portfolio '
+              urlFront={'https://github.com/edmondhillary/thisIsMe/tree/main'}
             />
           }
         />

@@ -16,7 +16,7 @@ const Portfolio = () => {
         <About /> 
         <Services />
         <TecnichSkills />
-        <ContactForm/>
+        {/* <ContactForm/> */}
         <Footer />
         </>
     );

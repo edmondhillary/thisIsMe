@@ -11,6 +11,15 @@ const Main = () => {
     link.click();
   };
 
+  const handleWhatsApp = () => {
+    const phoneNumber = "+34617680026"; // Reemplaza con tu número de teléfono
+    const message = "Hola, estoy interesado en tus servicios, ¿Podríamos concretar una cita?"; // Mensaje opcional
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <main>
       <div className='main-left'>
@@ -23,21 +32,14 @@ const Main = () => {
           <button className='btn btn-primary' onClick={handleDownloadCV}>
             Download CV
           </button>
-          <button className='btn btn-secondary' onClick={()=>{console.log('sfas hola puert')  }}><>
-           
-       
-          <WhatsAppOutlined style={{color: '#29AE60', fontSize: '25px'}}/> 
-          </>
+          <button className='btn btn-secondary' onClick={handleWhatsApp}>
+            <WhatsAppOutlined style={{ color: "#29AE60", fontSize: "25px" }} />
           </button>
         </div>
       </div>
       <div className='main-right'>
         <div className='image-container'>
-          <img
-            className='portrait'
-            src={imgPortfolio}
-            alt="Samir Ben Salah's portrait"
-          />
+          <img className='portrait' src={imgPortfolio} alt='edu,s portrait' />
         </div>
       </div>
     </main>

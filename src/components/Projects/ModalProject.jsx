@@ -53,7 +53,7 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront,urlBack }) => {
             <button
               className='btn btn-primary'
               onClick={() => {
-                window.open (urlBack)
+                window.open (urlBack ? urlBack : urlFront)
               }}
             >
               <GithubOutlined style={{padding: '1rem'}}/>
