@@ -22,19 +22,22 @@ const Card = (props) => {
         className='portfolio-cards--card'
         style={{
           backgroundImage: `url(${props.imgUrl})`,
-     
-          
         }}
       >
         <div className='portfolio-cards--card-overlay'></div>
         <div className='portfolio-cards--card-content'>
-          <h2 className='portfolio-cards--card-title' style={{color: props.color }}>{props.title}</h2>
-          
+{/* <br /> */}
           <p>{props.description}</p>
           <br />
           <button className='btn btn-primary' onClick={openModal}>
             Explore
           </button>
+          <h2
+            className='portfolio-cards--card-title'
+            style={{ color: props.color }}
+          >
+            {props.title}
+          </h2>
         </div>
       </div>
 

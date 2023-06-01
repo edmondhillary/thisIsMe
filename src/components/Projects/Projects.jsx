@@ -72,10 +72,12 @@ const Projects = () => {
         />
 
         <Card
+          color='white'
+
           id={uuidv4()}
           title='Portfolio'
-          description='Showing to the  world my time in what I love'
-          imgUrl={imgPortfolio}
+          description='I love what I do'
+          imgUrl={'https://previews.123rf.com/images/cherezoff/cherezoff1601/cherezoff160100293/50192566-codificaci%C3%B3n-de-la-aplicaci%C3%B3n-por-el-desarrollador-programador-c%C3%B3digo-de-programaci%C3%B3n-abstracta.jpg'}
           modalContent={
             <ModalProject
               title='Portfolio'
@@ -90,7 +92,7 @@ const Projects = () => {
           color='white'
           id={uuidv4()}
           title='Ecommerce'
-          description='This is the description'
+          description='Surfer`s Ecommerce '
           imgUrl='https://trilogi.com/blog/wp-content/uploads/sites/2/ecommerce2.jpg'
           modalContent={
             <ModalProject
