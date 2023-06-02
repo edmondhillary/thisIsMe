@@ -8,13 +8,13 @@ const CommingSoon = () => {
           justifyContent: "center",
           flexDirection: "column",
         }}
-        class='container'
+        className='container'
       >
-        <h3>COMING SOON</h3>
+        <h3 style={{color:'#18BBA1'}} >COMING SOON</h3>
         <br />
         <br />
-        <div class='bar'>
-          <div class='progress'></div>
+        <div className='bar'>
+          <div className='progress'></div>
         </div>
       </div>
     );

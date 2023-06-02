@@ -21,7 +21,7 @@ const Portfolio = () => {
         <br />
         <br />
         <br />
-        <h2 className='section-title' style={{textAlign: 'center'}}>My Dev Projects</h2>
+        <h2 className='section-title' style={{textAlign: 'center'}}> Projects</h2>
         <br />
         <br />
         <br />

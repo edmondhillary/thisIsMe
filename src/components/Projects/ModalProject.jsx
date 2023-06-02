@@ -35,6 +35,7 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
           alignItems: "center",
           margin: "3rem",
           gap: "3rem",
+
           flexDirection: "row",
         }}
       >
@@ -62,7 +63,18 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
         )}
       </span>
 
-      <h4 style={{ fontSize: "14px" }}>{text}</h4>
+      <p
+        style={{
+          fontSize: "18px",
+          color: "#fff",
+          textAlign: "center",
+          margin: "0 auto",
+          maxWidth: "80vw",
+          whiteSpace: "pre-line",
+        }}
+      >
+        {text}
+      </p>
     </span>
   );
 };

@@ -9,6 +9,7 @@ import { Tiles } from "../ContentCreator/Tiles";
 import "../ContentCreator/ContentCreator.scss";
 import Card from "../Projects/Card";
 import ModalProject from "../Projects/ModalProject";
+import { PandaIcon } from "../Header/Header";
 const Audiovisuals = () => {
   const navigate = useNavigate();
   return (
@@ -16,11 +17,16 @@ const Audiovisuals = () => {
       <div>
         <div className='logo-container'>
           <span className='logo' onClick={() => navigate("/")}>
-            <HomeOutlined />
+            <PandaIcon
+              style={{
+                position: "fixed",
+                left: "3rem",
+                fontSize: "48px",
+              }}
+            />
           </span>
         </div>
       </div>
-
       <div className='portfolio-cards--container'>
         <Card
           color={"tomato"}
