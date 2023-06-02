@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "@ant-design/icons";
+import Icon, { WhatsAppOutlined } from "@ant-design/icons";
 import "./Header.scss";
 import { Space } from "antd";
 import { Link, useNavigate } from "react-router-dom";
@@ -67,27 +67,15 @@ const Header = () => {
               fontSize: "48px",
             }}
           />
-          <span className='logo' >...</span>
+          {/* <span className='logo' >...</span> */}
         </div>
       </div>
-      <nav>
-        <a href='#services' className='nav-link'>
-          Services
+      
+        <a href='#contact'  onClick={handleWhatsApp}>
+          <WhatsAppOutlined style={{fontSize: '4.5rem', position: 'fixed', right:'3rem', color: 'lightgreen', fontSize: "45px",}}/>
         </a>
-        <a href='#skills' className='nav-link'>
-          Languages
-        </a>
-        <Link to={"/dev"} className='nav-link'>
-          {" "}
-          Experience
-        </Link>
-        <a href='#contact' className='nav-link' onClick={handleWhatsApp}>
-          Contact
-        </a>
-        <a href='#about' className='nav-link'>
-          About me
-        </a>
-      </nav>
+       
+     
     </header>
   );
 };

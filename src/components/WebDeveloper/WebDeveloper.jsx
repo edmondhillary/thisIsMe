@@ -10,9 +10,9 @@ const WebDeveloper = () => {
   const navigate = useNavigate();
 
   const skillsData = [
-    { name: "JAVASCRIPT ", percent: 85 },
-    { name: "React", percent: 75 },
-    { name: "JAVA / TYPESCRIPT / SQL / Rabbit  MQ", percent: 55 },
+    { name: "JAVASCRIPT / REACT ", percent: 75 },
+    // { name: "React", percent: 75 },
+    { name: "JAVA / TYPESCRIPT / SQL / Rabbit  MQ", percent: 50 },
     { name: "Mongo / Express / Node j.s", percent: 80 },
     { name: "HTML5 / CSS / SASS", percent: 95 },
   ];
