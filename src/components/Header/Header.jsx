@@ -27,7 +27,7 @@ const Header = () => {
         </a>
         <Link to={"/dev"} className='nav-link'>
           {" "}
-          Experience
+          Experience 
         </Link>
         <a href='#contact' className='nav-link' onClick={handleWhatsApp}>
           Contact

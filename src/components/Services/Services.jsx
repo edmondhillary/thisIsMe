@@ -21,7 +21,7 @@ const Services = () => {
           src={iconCamera} 
             
             textUp='Content'
-            textDown={'   Creator '}
+            textDown={'   Creator  + MD '}
           />
         </div>
       </div>

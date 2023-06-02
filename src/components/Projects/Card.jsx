@@ -21,6 +21,7 @@ const Card = (props) => {
       <div
         className='portfolio-cards--card'
         style={{
+          
           backgroundImage: `url(${props.imgUrl})`,
         }}
       >
@@ -29,15 +30,12 @@ const Card = (props) => {
 {/* <br /> */}
           <p>{props.description}</p>
           <br />
-          <button className='btn btn-primary' onClick={openModal}>
-            Explore
+          <button className='btn btn-primary' style={{
+            
+          }} onClick={openModal}>
+          {props.title}
           </button>
-          <h2
-            className='portfolio-cards--card-title'
-            style={{ color: props.color }}
-          >
-            {props.title}
-          </h2>
+          
         </div>
       </div>
 

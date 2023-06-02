@@ -43,8 +43,9 @@ const navigate = useNavigate()
         </div>
       ))}
       <Experience/>
-      <br /><br />
-      <h1 style={{ display: 'flex', justifyContent: 'center', fontSize: '25px' }}>Projects</h1>      {/* //SEGUIR AÑADIENDO CONTENIDO//  */}
+      <br />
+      <h1 style={{ display: 'flex', justifyContent: 'center', fontSize: '25px' }}>Projects</h1>
+      <br /><br />      {/* //SEGUIR AÑADIENDO CONTENIDO//  */}
       <Projects/>
       <br /><br />
     </div>

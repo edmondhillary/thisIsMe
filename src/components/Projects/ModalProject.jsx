@@ -3,7 +3,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import CommingSoon from "../ComingSoon/ComingSoon";
 
-const ModalProject = ({ subtitle, videoUrl, text, urlFront,urlBack }) => {
+const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
   return (
     <span
       style={{
@@ -21,45 +21,47 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront,urlBack }) => {
           <div>
             <ReactPlayer url={videoUrl} width='560px' height='315px' controls />
           </div>
-         
         </>
       ) : (
         <>
-        <CommingSoon/>
-       
-      </>
+          <CommingSoon />
+        </>
       )}
-      
+
       <span
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              margin: "3rem",
-              gap: "3rem",
-              flexDirection: "row",
-            }}
-          >
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          margin: "3rem",
+          gap: "3rem",
+          flexDirection: "row",
+        }}
+      >
+        {urlFront && urlBack && (
+          <>
             <button
               className='btn btn-primary'
               onClick={() => {
-                window.open (urlFront)
+                window.open(urlFront);
               }}
             >
-              
-              <GithubOutlined style={{padding: '1rem'}}/>
+              <GithubOutlined style={{ padding: "1rem" }} />
               Front Code
             </button>
             <button
               className='btn btn-primary'
               onClick={() => {
-                window.open (urlBack ? urlBack : urlFront)
+                window.open(urlBack ? urlBack : urlFront);
               }}
             >
-              <GithubOutlined style={{padding: '1rem'}}/>
+              <GithubOutlined style={{ padding: "1rem" }} />
               Backend Code
             </button>
-          </span>
+          </>
+        )}
+      </span>
+
       <h4 style={{ fontSize: "14px" }}>{text}</h4>
     </span>
   );

@@ -94,7 +94,7 @@ const Experience = () => {
           </li>
           <li>
             <animated.div className='experience-content hidden' style={fadeIn}>
-              <h2>BigSeo academy </h2>{" "}
+              <h2>BigSeo Academy </h2>{" "}
               <img
                 style={{ width: "3rem", heigth: "3rem" }}
                 src={

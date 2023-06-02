@@ -97,6 +97,16 @@ $timing-function: ease;
     transition: $content-duration $timing-function;
     font-weight: 500;
   }
+  button{
+    
+font-size:1.5em;
+font-weight:100;
+letter-spacing:0.4em;
+text-shadow:0px 0px 20px $black;
+color:$white;
+display:inline-block;
+
+  }
 }
 
 .portfolio-cards--card-title {
