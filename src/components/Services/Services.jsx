@@ -2,6 +2,7 @@ import React from "react";
 import Skills from "../Skills/Skills";
 import iconCamera from "../../../public/iconoCamera.png";
 import iconsWeb from "../../../public/iconsWeb.png"
+import { GlobalOutlined, YoutubeOutlined } from "@ant-design/icons";
 
 
 const Services = () => {
@@ -15,10 +16,10 @@ const Services = () => {
         <div className='skills-container'>
           <Skills   
            route='dev'
-          src={iconsWeb} textUp='Web' textDown='Developer'  />
+          icon={<GlobalOutlined style={{color:'#D9B6DF'}}/>} textUp='Web' textDown='Developer'  />
           <Skills
           route='audiovisuals'
-          src={iconCamera} 
+          icon={<YoutubeOutlined style={{color:'#D9B6DF'}} />} 
             
             textUp='Content'
             textDown={'   Creator  + MD '}

@@ -27,13 +27,13 @@ const Main = () => {
           Hi, I am <br />
           Eduardo G
         </h1>
-        <h3 className='job-text'>Full stack developer</h3>
+        <h3 className='job-text' style={{color:'#D9B6DF'}}>Full stack developer</h3>
         <div className='btn-container'>
           <button className='btn btn-primary' onClick={handleDownloadCV}>
             Download CV
           </button>
           <button className='btn btn-secondary' onClick={handleWhatsApp}>
-            <WhatsAppOutlined style={{ color: "#29AE60", fontSize: "25px" }} />
+            <WhatsAppOutlined style={{ color: "#D9B6DF", fontSize: "25px" }} />
           </button>
         </div>
       </div>

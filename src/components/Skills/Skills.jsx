@@ -1,8 +1,9 @@
+import { MoreOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Skills = ({ src, textUp, textDown, route }) => {
+const Skills = ({  textUp, textDown, route , icon}) => {
   const navigate = useNavigate();
   const handleRedirect = () => {
     navigate(`/${route}`);
@@ -20,13 +21,13 @@ const Skills = ({ src, textUp, textDown, route }) => {
       }}
       className='skill-card'
     >
-      <img className='skill-icon' src={src} alt={src} />
-      <span className='skill-name'>
+      <span className='skill-icon' > {icon}</span>
+      <span  className='skill-name'>
         {textUp} <br />
         {textDown}
       </span>
       <Button type='secondary' size='large' style={{ color: "#fff" }}>
-        + Info
+        <MoreOutlined rotate={90} style={{color: "#D9B6DF",fontSize:'30px'}} />
       </Button>
     </div>
   );

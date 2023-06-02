@@ -44,8 +44,8 @@ const WebDeveloper = () => {
           <Progress
             percent={skill.percent}
             strokeColor={{
-              from: "#27ae60",
-              to: "#27ae60",
+              from: "#D9B6DF",
+              to: "#D9B6DF",
             }}
             format={(percent) => (
               <span style={{ color: "#FFFFFF" }}>{percent} %</span>

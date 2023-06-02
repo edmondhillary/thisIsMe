@@ -6,6 +6,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+ 
+
 }
 
 /* General Styling */
@@ -15,7 +17,7 @@ html {
 
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: #171717;
+  background-color: #272428;
   color: #fff;
   width: 100vw;
   padding: 3rem 8rem;
@@ -29,7 +31,7 @@ a:active {
   color: white;
 }
 .animation-enter-done{
-  background: #171717;
+  background: #272428;
 }
 section {
   width: 100%;
@@ -58,9 +60,9 @@ section {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.8rem;
-  color: white;
+  color: rgb(7, 5, 5);
   border: solid 1px transparent;
-
+  text-shadow:0px 0px 20px white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,12 +71,14 @@ section {
 }
 
 .btn:hover {
+
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
+  
 }
 
 .btn-primary {
-  background-color: #27ae60;
+  background-color: #D9B6DF;
 }
 
 .btn-secondary {
@@ -113,11 +117,11 @@ nav {
   line-height: 2.3rem;
   border-bottom: solid 1px transparent;
   transition: border 0.2s ease-in-out;
-  color: #FFEBD2;
+  color: #D9B6DF;
 }
 
 .nav-link:hover {
-  color: #FFEBD2;
+  color: #D9B6DF;
 transform: scale(1.3);
   cursor: pointer;
   border-bottom: solid 1px white;
@@ -169,18 +173,22 @@ main {
 }
 
 .image-container {
-  background-color: #181818;
+  /* background-color: #11091a; */
   border-radius: 50%;
   padding: 2.8rem;
-  border: 1px solid #202020;
+  border: 1px solid #262428;
 }
 
 .portrait {
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
-  border: 0.45rem solid #FFEBD2 ;
+  border: 0.4rem solid #e6cceb ;
   object-fit: cover;
+}
+.portrait:hover{
+  transform: scale(1.2);
+  transition: 4s ease all;
 }
 
 /* About */
@@ -211,7 +219,7 @@ main {
   background-color: #27ae60;
   display: block;
   margin-bottom: 1.5rem;
-  background-color: #212121;
+  background-color: #030303;
   padding: 2rem;
   border-radius: 50%;
 
@@ -269,12 +277,13 @@ main {
 
 .skill-card:hover {
   cursor: pointer;
-  border-bottom: 3px solid #27ae60;
+  border-bottom: 3px solid #D9B6DF;
+
 }
 
 .skill-icon {
   font-size: 5rem;
-  color: #27ae60;
+  color: #D9B6DF;
 }
 
 .skill-name {
@@ -326,7 +335,7 @@ main {
   font-size: 2.4rem;
   line-height: 3.1rem;
   text-align: center;
-  color: #27ae60;
+  color: #D9B6DF;
 }
 
 /* Contact */

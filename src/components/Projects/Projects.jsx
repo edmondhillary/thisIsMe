@@ -12,7 +12,7 @@ const Projects = () => {
       <br />
       <div className='portfolio-cards--container'>
         <Card
-          color={"white"}
+          color={"lightgray"}
           id={uuidv4()}
           title='Nomad'
           description='Social Network for NOMADS'
@@ -48,7 +48,7 @@ const Projects = () => {
         />
         <Card
           id={uuidv4()}
-          color='white'
+          color='lightgray'
           title='SoftDent'
           description='Dental Software for '
           imgUrl='https://www.appandweb.es/wp-content/uploads/2022/08/post-tipossoftware-Appandweb.jpg'
@@ -80,7 +80,7 @@ const Projects = () => {
         />
 
         <Card
-          color='white'
+          color='lightgray'
 
           id={uuidv4()}
           title='Portfolio'
@@ -97,7 +97,7 @@ const Projects = () => {
           }
         />
         <Card
-          color='white'
+          color='darkgray'
           id={uuidv4()}
           title='Ecommerce'
           description='Surfer`s Ecommerce '

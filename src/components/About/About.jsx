@@ -17,7 +17,7 @@ const About = () => {
               link='https://www.linkedin.com/in/eduardo-gonzalez-fullstack/'
               antIconOutlined={
                 <LinkedinOutlined
-                  style={{ fontSize: "4rem", color: "#27ae60" }}
+                  style={{ fontSize: "4rem", color: "#D9B6DF" }}
                 />
               }
               socialNet='Linkedin'
@@ -27,7 +27,7 @@ const About = () => {
               
               antIconOutlined={
                 <MailOutlined
-                  style={{ fontSize: "4rem", color: "#27ae60" }}
+                  style={{ fontSize: "4rem", color: "#D9B6DF" }}
                 />
               }
               socialNet='Email'
@@ -37,7 +37,7 @@ const About = () => {
               link='https://www.instagram.com/nomadasporexcelencia/'
               antIconOutlined={
                 <InstagramOutlined
-                  style={{ fontSize: "4rem", color: "#27ae60" }}
+                  style={{ fontSize: "4rem", color: "#D9B6DF" }}
                 />
               }
               socialNet='Instagram'
@@ -47,7 +47,7 @@ const About = () => {
               link='https://www.github.com/edmondhillary'
               antIconOutlined={
                 <GithubOutlined
-                  style={{ fontSize: "4rem", color: "#27ae60" }}
+                  style={{ fontSize: "4rem", color: "#D9B6DF" }}
                 />
               }
               socialNet='Github'

@@ -28,10 +28,10 @@ const Card = (props) => {
         <div className='portfolio-cards--card-overlay'></div>
         <div className='portfolio-cards--card-content'>
 {/* <br /> */}
-          <p>{props.description}</p>
+          <p style={{fontSize:'2rem'}}>{props.description}</p>
           <br />
           <button className='btn btn-primary' style={{
-            
+            color: 'black'
           }} onClick={openModal}>
           {props.title}
           </button>
