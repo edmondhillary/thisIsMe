@@ -5,6 +5,7 @@ import imgDent from "../../../public/dienticonok.png";
 import mafaldaLogo from "../../../public/mafaldaLogo.png";
 import theBridgeLogo from "../../../public/theBridge.png";
 import humboldt from "../../../public/humboldt.png";
+
 const Experience = () => {
   useEffect(() => {
     const hiddenElements = document.querySelectorAll(
@@ -26,21 +27,43 @@ const Experience = () => {
   return (
     <section style={{ color: "transparent" }} className='experience'>
       <div className='content'>
-        <span style={{width: '100%', display: 'flex', justifyContent: 'space-between'}}>
-          <h1 style={{marginLeft: '2rem', fontSize: '25px', letterSpacing: '0.1rem'}} >Education IT</h1>
-          <h1  style={{marginRight: '2rem', fontSize: '25px', letterSpacing: '0.1rem'}} >Work Experience</h1>
+        <span
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          <h1
+            style={{
+              marginLeft: "2rem",
+              fontSize: "25px",
+              letterSpacing: "0.1rem",
+            }}
+          >
+            Education IT
+          </h1>
+          <h1
+            style={{
+              marginRight: "2rem",
+              fontSize: "25px",
+              letterSpacing: "0.1rem",
+            }}
+          >
+            Work Experience
+          </h1>
         </span>
         <ul>
           <li>
             <animated.div className='experience-content hidden' style={fadeIn}>
-              <h2>Freelance - SoftDent </h2>{" "}
+              <h2>Freelance - SoftDent</h2>{" "}
               <img
                 style={{ width: "2rem", heigth: "2rem" }}
                 src={imgDent}
                 alt={imgDent}
               />
-              <div className='experience-time'> 2022 - 2023 </div>
-              <p style={{overflowX: 'scroll'}}>
+              <div className='experience-time'>2022 - 2023</div>
+              <p style={{ margin: "1rem 0", overflowX: "scroll" }}>
                 On the back-end, I work with Node.js, Express, and MongoDB,
                 while the front-end is powered by React, SCSS, Tailwind CSS, and
                 Ant Design. I recently developed and sold a dental software with
@@ -56,13 +79,11 @@ const Experience = () => {
               <h2>The Bridge || Digital Talent Acelerator</h2>
               <img
                 style={{ width: "40px", heigth: "70px" }}
-                src={
-                  "https://media.licdn.com/dms/image/D4D3DAQGBzJjv1nla9Q/image-scale_191_1128/0/1673263485427?e=1686088800&v=beta&t=sLZO9Uv2pDXMb95hFHdjaIJ7SC0ty8N2drWV0oAxDWw"
-                }
+                src='https://media.licdn.com/dms/image/D4D3DAQGBzJjv1nla9Q/image-scale_191_1128/0/1673263485427?e=1686088800&v=beta&t=sLZO9Uv2pDXMb95hFHdjaIJ7SC0ty8N2drWV0oAxDWw'
                 alt={theBridgeLogo}
               />
               <div className='experience-time'>2022</div>
-              <p style={{overflowX: 'scroll'}}>
+              <p style={{ margin: "1rem 0", overflowX: "scroll" }}>
                 Full Stack Web Development BootCamp, specializing in the MERN
                 STACK +1000 hours of practical training in Full Stack web
                 development. Front-end programming in JavaScript. Use of
@@ -78,14 +99,14 @@ const Experience = () => {
           </li>
           <li>
             <animated.div className='experience-content hidden' style={fadeIn}>
-              <h2>Road & Manager Mafalda Band </h2>
+              <h2>Road & Manager Mafalda Band</h2>
               <img
                 style={{ width: "2rem", heigth: "2rem" }}
                 src={mafaldaLogo}
                 alt={mafaldaLogo}
               />
-              <div className='experience-time'>2022 - now </div>{" "}
-              <p style={{overflowX: 'scroll'}}>
+              <div className='experience-time'>2022 - now</div>{" "}
+              <p style={{ margin: "1rem 0", overflowX: "scroll" }}>
                 Managed and coordinated an international band in the local music
                 scene, specializing in logistics, communication, social media
                 marketing, and event organization.
@@ -94,16 +115,14 @@ const Experience = () => {
           </li>
           <li>
             <animated.div className='experience-content hidden' style={fadeIn}>
-              <h2>BigSeo Academy </h2>{" "}
+              <h2>BigSeo Academy</h2>{" "}
               <img
                 style={{ width: "3rem", heigth: "3rem" }}
-                src={
-                  "https://yt3.googleusercontent.com/rhe8w_7rJdyMO-1O4WkdXQrTKs2MXemmKVE24-nvGW6wViJWTsI5s8KSdvoHU-LcRlyMf3nTYw=s900-c-k-c0x00ffffff-no-rj"
-                }
-                alt={"bigSeo"}
+                src='https://yt3.googleusercontent.com/rhe8w_7rJdyMO-1O4WkdXQrTKs2MXemmKVE24-nvGW6wViJWTsI5s8KSdvoHU-LcRlyMf3nTYw=s900-c-k-c0x00ffffff-no-rj'
+                alt='bigSeo'
               />
               <div className='experience-time'>2017-2018</div>
-              <p style={{overflowX: 'scroll'}}>
+              <p style={{ margin: "1rem 0", overflowX: "scroll" }}>
                 I utilized my expertise in TSA, Sendinblue, Hubspot, and Google
                 Analytics to manage successful digital marketing campaigns. I
                 developed visually appealing websites using WordPress,
@@ -115,14 +134,14 @@ const Experience = () => {
           </li>
           <li>
             <animated.div className='experience-content hidden' style={fadeIn}>
-              <h2>Humboldt Boyz TLL </h2>{" "}
+              <h2>Humboldt Boyz TLL</h2>{" "}
               <img
                 style={{ width: "2rem", heigth: "2rem" }}
                 src={humboldt}
                 alt={humboldt}
               />
-              <div className='experience-time'>2016 - 2021 </div>
-              <p style={{overflowX: 'scroll'}}>
+              <div className='experience-time'>2016 - 2021</div>
+              <p style={{ margin: "1rem 0", overflowX: "scroll" }}>
                 Experienced in property management and administration,
                 marketing, SEO, social media management, and economic
                 management. Skilled in leading and managing teams of over 30
