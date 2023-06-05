@@ -32,12 +32,12 @@ const Audiovisuals = () => {
           color={"tomato"}
           id={uuidv4()}
           title='Costa Rica '
-          description='MARKETING AND CONTENT CREATOR'
+          description='CONTENT CREATOR'
           imgUrl='https://costarica.org/wp-content/uploads/2017/03/animals.jpg'
           modalContent={
             <ModalProject
               title='FULL HD'
-              subtitle='Social Network for NOMADS'
+              subtitle='Social Network'
               videoUrl='https://www.youtube.com/watch?v=HoVH-xEAkS4'
               text='
 ¡Bienvenidos a nuestro increíble viaje por Costa Rica! 🌅 En este video, te llevamos a explorar los hermosos paisajes de este exuberante país centroamericano, capturados desde el aire con drones y con nuestras cámaras en tierra. 🚁🎥
