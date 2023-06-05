@@ -15,7 +15,7 @@ const Projects = () => {
           color={"lightgray"}
           id={uuidv4()}
           title='Nomad'
-          description='Social Network for NOMADS'
+          description='Social Network'
           imgUrl='https://www.jumpplus.com/web/image/1124866-49bb3144/nomadbanner-1.jpg?access_token=2d50ce3f-bc2f-471c-bd35-b142c15d265b'
           modalContent={
             <ModalProject
