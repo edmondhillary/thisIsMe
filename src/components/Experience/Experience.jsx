@@ -88,12 +88,7 @@ const Experience = () => {
                 STACK +1000 hours of practical training in Full Stack web
                 development. Front-end programming in JavaScript. Use of
                 frameworks and databases such as MySQL and MongoDB. App
-                deployment in a Cloud Testing environment. DevOps. Photoshop +
-                Camera + Drone || The Core School 2021 United States Theory &
-                training: cameras, drones, and Photoshop & Davinci Resolve
-                Editing. Acquired skills in lens and objective management,
-                capturing visuals, and advanced editing techniques. Proficient
-                in photography and videography
+                deployment in a Cloud Testing environment. DevOps. 
               </p>
             </animated.div>
           </li>
