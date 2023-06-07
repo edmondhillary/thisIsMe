@@ -2,7 +2,7 @@ import { GithubOutlined, YoutubeOutlined } from "@ant-design/icons";
 import React from "react";
 import CommingSoon from "../ComingSoon/ComingSoon";
 
-const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
+const ModalProject = ({ videoUrl, text, urlFront, urlBack }) => {
   return (
     <div
       style={{
@@ -31,8 +31,8 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
           >
             <a
               href={videoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
+              rel='noopener noreferrer'
               style={{
                 position: "absolute",
                 top: "0",
@@ -65,29 +65,29 @@ const ModalProject = ({ subtitle, videoUrl, text, urlFront, urlBack }) => {
           flexWrap: "wrap",
         }}
       >
-        {urlFront && urlBack && (
-          <>
-            <button
-              className="btn btn-primary"
-              onClick={() => {
-                window.open(urlFront);
-              }}
-              style={{ marginBottom: "1rem" }}
-            >
-              <GithubOutlined style={{ padding: "1rem" }} />
-              Front Code
-            </button>
-            <button
-              className="btn btn-primary"
-              onClick={() => {
-                window.open(urlBack ? urlBack : urlFront);
-              }}
-              style={{ marginBottom: "1rem" }}
-            >
-              <GithubOutlined style={{ padding: "1rem" }} />
-              Backend Code
-            </button>
-          </>
+        {urlFront && (
+          <button
+            className='btn btn-primary'
+            onClick={() => {
+              window.open(urlFront);
+            }}
+            style={{ marginBottom: "1rem" }}
+          >
+            <GithubOutlined style={{ padding: "1rem" }} />
+            Front Code
+          </button>
+        )}
+        {urlBack && (
+          <button
+            className='btn btn-primary'
+            onClick={() => {
+              window.open(urlBack);
+            }}
+            style={{ marginBottom: "1rem" }}
+          >
+            <GithubOutlined style={{ padding: "1rem" }} />
+            Backend Code
+          </button>
         )}
       </div>
 

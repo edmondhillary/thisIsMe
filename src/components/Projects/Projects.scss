@@ -36,7 +36,7 @@ $timing-function: ease;
 .portfolio-cards--container {
 //   padding: 40px 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -47,6 +47,7 @@ $timing-function: ease;
   background-size: cover;
   display: flex;
   align-items: center;
+ 
   flex-direction: column;
   position: relative;
   top: -10px;
@@ -54,13 +55,14 @@ $timing-function: ease;
   flex-shrink: 0;
   flex-grow: 0;
   overflow: hidden;
-  width: 240px;
-  height: 380px;
+  width: 17%;
+  height: 350px;
   text-align: center;
   background-color: $black;
   border-radius: 4px;
   transition: $content-duration $timing-function;
   box-shadow: #00000070 0px 2px 8px 0px;
+  object-fit:cover;
   &:hover {
     .portfolio-cards--card-overlay {
       opacity: 1;
@@ -299,7 +301,15 @@ background:$mainColor;
 animation:load 3s linear infinite;
 animation-delay:2s;
 }
-
+// .ant-carousel .css-dev-only-do-not-override-k7429z{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+.boton-cards{
+width: 85% !important;
+height: 20% !important;
+}
 
 @keyframes load{
 0%{

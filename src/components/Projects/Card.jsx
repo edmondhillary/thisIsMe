@@ -30,7 +30,8 @@ const Card = (props) => {
 {/* <br /> */}
           <p style={{fontSize:'2rem'}}>{props.description}</p>
           <br />
-          <button className='btn btn-primary' style={{
+          <button className={`btn btn-primary boton-cards`} style={{
+        
             color: 'black'
           }} onClick={openModal}>
           {props.title}

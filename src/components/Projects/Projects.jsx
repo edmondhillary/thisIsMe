@@ -50,7 +50,7 @@ const Projects = () => {
           id={uuidv4()}
           color='lightgray'
           title='SoftDent'
-          description='Dental Software for '
+          description='Dental Software'
           imgUrl='https://www.appandweb.es/wp-content/uploads/2022/08/post-tipossoftware-Appandweb.jpg'
           modalContent={
             <ModalProject
@@ -100,7 +100,7 @@ const Projects = () => {
           color='darkgray'
           id={uuidv4()}
           title='Ecommerce'
-          description='Surfer`s Ecommerce '
+          description='Surf Ecommerce '
           imgUrl='https://trilogi.com/blog/wp-content/uploads/sites/2/ecommerce2.jpg'
           modalContent={
             <ModalProject
@@ -108,6 +108,22 @@ const Projects = () => {
               subtitle='Ecommerce Description '
             //   videoUrl='https://www.youtube.com/watch?v=HoVH-xEAkS4'
             //   text='Lorem ipsum bal abjbd jb dfhb hdbhjbd  hd hhud dhg hdhv dfshv  dhv uyf  ds dsfh dhu d       dh d hdshu frg tfh ju jt uyj hn hj '
+            />
+          }
+        />
+          <Card
+          color='darkgray'
+          id={uuidv4()}
+          title='Test Memorandum '
+          description='Prueba Técnica'
+          imgUrl='https://e1.pxfuel.com/desktop-wallpaper/643/314/desktop-wallpaper-testing-a-react-application-with-react-hooks-with-jest-and-enzyme-for-newbies-software-testing.jpg'
+          modalContent={
+            <ModalProject
+              title='Prueba React'
+              subtitle='Valoración'
+              text={'Prueba tecnica Memorandum'}
+              videoUrl={'https://wwww.eduardo-gonzalez.com'}
+              urlFront={'https://github.com/edmondhillary/prueba-react'}
             />
           }
         />
