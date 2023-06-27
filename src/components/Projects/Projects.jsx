@@ -41,8 +41,8 @@ const Projects = () => {
               🔗 https://lnkd.in/d2mBVbd5
               
               Tools, languages, and frameworks used: JavaScript, MongoDB, Mongoose, React, AntDesign, SASS, Python, CSS, Node.js, Express, Swagger, JWT, OpenAI, HTML5. 💻📚🔧🔗'
-              urlFront={'https://github.com/alberttsg/frontend-nomadList'}
-              urlBack={'https://github.com/Kric12/BackEnd-NomadSociety'}
+              urlFront={'https://github.com/edmondhillary/nomadSociety-frontEnd-'}
+              urlBack={'https://github.com/edmondhillary/NOMAD-BACKEND'}
             />
           }
         />
@@ -111,7 +111,7 @@ const Projects = () => {
             />
           }
         />
-          <Card
+          {/* <Card
           color='darkgray'
           id={uuidv4()}
           title='Test Memorandum '
@@ -126,7 +126,7 @@ const Projects = () => {
               urlFront={'https://github.com/edmondhillary/prueba-react'}
             />
           }
-        />
+        /> */}
       </div>
     </>
   );
