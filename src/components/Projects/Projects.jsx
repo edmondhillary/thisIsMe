@@ -114,7 +114,7 @@ const Projects = () => {
           <Card
           color='darkgray'
           id={uuidv4()}
-          title='🏠 Clon de FotoCasa: ¡Tu hogar virtual!📸 '
+          title='🏠 Clon de FotoCasa 📸 '
           description='Clon fotocasa'
           imgUrl='https://brandemia.org/sites/default/files/inline/images/fotocasa_logo_portada.jpg'
           modalContent={
