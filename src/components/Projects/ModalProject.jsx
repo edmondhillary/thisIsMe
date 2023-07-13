@@ -46,6 +46,7 @@ const ModalProject = ({ videoUrl, text, urlFront, urlBack }) => {
             >
               <YoutubeOutlined style={{ fontSize: "6rem", color: "#fff" }} />
             </a>
+            <p style={{ position: "absolute", color: "#fff", fontSize: "1.5rem" }}>Dale al PLAY  para ver el video</p>
           </div>
         </>
       ) : (
