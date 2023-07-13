@@ -114,9 +114,9 @@ const Projects = () => {
           <Card
           color='darkgray'
           id={uuidv4()}
-          title='🏠 Clon de FotoCasa 📸 '
+          title='Clon de FotoCasa'
           description='Clon fotocasa'
-          imgUrl='https://brandemia.org/sites/default/files/inline/images/fotocasa_logo_portada.jpg'
+          imgUrl='https://brandemia.org/sites/default/files/inline/images/fotocasa-25-toormix-design-barcelona.jpg'
           modalContent={
             <ModalProject
               title='🏠 Clon de FotoCasa: ¡Tu hogar virtual!📸 '
