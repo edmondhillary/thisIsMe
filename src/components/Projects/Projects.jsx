@@ -111,22 +111,26 @@ const Projects = () => {
             />
           }
         />
-          {/* <Card
+          <Card
           color='darkgray'
           id={uuidv4()}
-          title='Test Memorandum '
-          description='Prueba Técnica'
-          imgUrl='https://e1.pxfuel.com/desktop-wallpaper/643/314/desktop-wallpaper-testing-a-react-application-with-react-hooks-with-jest-and-enzyme-for-newbies-software-testing.jpg'
+          title='🏠 Clon de FotoCasa: ¡Tu hogar virtual!📸 '
+          description='Clon fotocasa'
+          imgUrl='https://brandemia.org/sites/default/files/inline/images/fotocasa_logo_portada.jpg'
           modalContent={
             <ModalProject
-              title='Prueba React'
-              subtitle='Valoración'
-              text={'Prueba tecnica Memorandum'}
-              videoUrl={'https://wwww.eduardo-gonzalez.com'}
-              urlFront={'https://github.com/edmondhillary/prueba-react'}
+              title='🏠 Clon de FotoCasa: ¡Tu hogar virtual!📸 '
+              subtitle='Copia'
+              text={`¡Descubre mi clon de FotoCasa! 🏡📸 He creado una réplica de la página web de FotoCasa, enfrentándome a algunos imprevistos que he logrado solucionar con éxito. Algunas de las imágenes originales estaban guardadas localmente, así que utilicé Photoshop para incorporarlas en mi clon
+
+              Para lograr la autenticidad, inspeccioné minuciosamente el código de la página original y lo dividí en secciones, tal como lo hace FotoCasa, incluyendo el encabezado y el pie de página. Además, todos los logotipos y gráficos SVG los extraje directamente de la página web de FotoCasa, agregando un toque de realismo.
+              
+              ¡Espero que les guste y valoren el arduo trabajo que conlleva crear una página de inicio tan completa como esta! 🙌🏻😊`}
+              videoUrl={'https://www.youtube.com/watch?v=-2-hOzYiheU'}
+              urlFront={'https://github.com/edmondhillary/fotocasa-clone'}
             />
           }
-        /> */}
+        />
       </div>
     </>
   );
