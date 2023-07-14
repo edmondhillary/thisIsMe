@@ -1,13 +1,13 @@
 import React from "react";
 import imgPortfolio from "../../../public/jod.jpg";
-import pdfCV from "../../../public/CVENGLISH.pdf";
+import pdfCV from "../../../public/CV.png";
 import { WhatsAppOutlined } from "@ant-design/icons";
 
 const Main = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = pdfCV;
-    link.download = "CV.pdf";
+    link.download = "CV.png";
     link.click();
   };
 
